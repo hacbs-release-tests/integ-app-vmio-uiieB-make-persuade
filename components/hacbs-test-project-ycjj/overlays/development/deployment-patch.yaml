@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-ycjj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/integration1-lpau-tenant/integ-app-vmio/hacbs-test-project-ycjj@sha256:2a6d43c6ac3f7a1c8d6868b4d73ab1e2bf47b0f449c0b5cccd57db55c0e2d915
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
